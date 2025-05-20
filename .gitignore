@@ -1,0 +1,39 @@
+# Fichiers de données
+dataset/
+notebooks/data/
+
+# Modèles et prédictions
+notebooks/models/catboost_info/
+notebooks/data
+notebooks/predictions/
+
+# Fichiers de soumission
+submission.csv
+submissions/
+*.npy
+
+# Fichiers spécifiques aux notebooks
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+__pycache__/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Fichiers IDE
+.vscode/
+.idea/
+
+# Fichiers de cache Python
+*.py[cod]
+*$py.class
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*~
